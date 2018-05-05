@@ -1,0 +1,7 @@
+{
+  "contextPath": "/",
+  "port": 8085,
+  "proxyTable": {
+    "/operation-app/rest/s01/": "http://localhost:8080"
+  }
+}
