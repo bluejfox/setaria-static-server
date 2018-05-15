@@ -3,7 +3,7 @@
   "port": 8085,
   "proxyTable": {
     "/api": {
-      "target": "http://localhost:7000",
+      "target": "http://39.107.242.134:8080/ume-quickstart-boot-uac/capi/sys/",
       "pathRewrite": {
         "^/api": ""
       }
