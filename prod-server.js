@@ -29,7 +29,7 @@ Object.keys(proxyTable).forEach(function (context) {
 // app.use(require('connect-history-api-fallback')())
 
 // serve pure static assets
-app.use(config.contextPath, express.static('./static'))
+app.use(config.contextPath, express.static('./public'))
 
 console.log('> Starting prod server...')
 
